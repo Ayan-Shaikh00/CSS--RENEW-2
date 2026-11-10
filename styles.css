@@ -1,0 +1,146 @@
+@font-face {
+    font-family:Gilroy;
+    src: url(Gilroy-Medium.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: whitesmoke;
+    position: relative;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+nav > h1{
+    font-size: 2.4rem;
+    font-family:Gilroy;
+    font-weight: 800;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+}
+
+li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav > button {
+    height: 55px;
+    width: 8rem;
+    border:none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    background-color: #dbdbdb;
+    font-family: Gilroy;
+    font-weight: 500;
+}
+
+nav > button > a{
+    color: black;
+}
+
+header{
+    background-image: url(main.jpg);
+    height:50%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 30%;
+}
+
+main{
+    height: 30%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+#main1 > h1{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+#main2{
+    height:100%;
+    width: 30%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#main2 > p{
+    font-size: 1.4rem;
+}
+
+#btn{
+    display: flex;
+    gap: 1rem;
+}
+
+#btn > #btn1{
+    height: 60px;
+    width: 10rem;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+#btn > #btn2{
+    height: 60px;
+    width: 10rem;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 230, 230);
+    font-size: 1.3rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    border: 1px solid black;
+}
